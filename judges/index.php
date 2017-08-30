@@ -9,9 +9,8 @@
     <link href="../lib/assets/css/custom-styles.css" rel="stylesheet" />
 </head>
 <body>
-    <div id="container"> 
-        <?php include('../mod/navbar.php'); ?>   
-
+    <div id="container">
+        <?php include('../mod/navbar.php'); ?>
         <div class="col-lg-12">
             <center><h1><small>Selecciona una participante</small></h1></center>
             <div class="row">

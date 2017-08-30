@@ -1,6 +1,12 @@
 <nav class="navbar navbar-default top-navbar" role="navigation">
     <div class="navbar-header">
         <a class="navbar-brand" href="#"><?php session_start(); echo $_SESSION['nombre']; ?></a>
+        <?php
+        if(!isset($_SESSION['nombre']) && !isset($_SESSION['contrasenia'])){
+            header("Location:../");
+            session_destroy();
+        }
+        ?>
     </div>
   <ul class="nav navbar-top-links navbar-right">
    <li class="dropdown">
