@@ -10,11 +10,14 @@
 </head>
 <body>
     <div id="container"> 
-        <?php include('../mod/navbar.php'); ?>      
+        <?php include('../mod/navbar.php'); ?>   
+
         <div class="col-lg-12">
+            <center><h1><small>Selecciona una participante</small></h1></center>
             <div class="row">
               <div class="col-md-3 col-sm-12 col-xs-12">
                 <br>
+                <a href="">
                 <div class="panel panel-primary text-center no-boder">
                   <div class="panel-body">
                     <center>
@@ -22,52 +25,12 @@
                     </center>
                   </div>
                   <div class="panel-footer" style="background-color:#09192A; color:white;">
-                   Seleccionar
+                   <div width="100%" >
+                     <div align="left" style="float:left;">Kimberly Colli Ordaz</div>
+                     <div align="right">Color: Amarillo</div>
+                   </div>                   
                   </div>
-                </div>
-              </div>
-              <div class="col-md-3 col-sm-12 col-xs-12">
-                <br>
-                <div class="panel panel-primary text-center no-boder">
-                  <div class="panel-body">
-                   <img src="../resources/img/prueba.png" class="img-responsive">
-                  </div>
-                  <div class="panel-footer" style="background-color:#09192A; color:white;">
-                   Seleccionar
-                  </div>
-                </div>
-              </div>
-              <div class="col-md-3 col-sm-12 col-xs-12">
-                <br>
-                <div class="panel panel-primary text-center no-boder">
-                  <div class="panel-body">
-                   <img src="../resources/img/prueba.png" class="img-responsive">
-                  </div>
-                  <div class="panel-footer" style="background-color:#09192A; color:white;">
-                   Seleccionar
-                  </div>
-                </div>
-              </div>
-              <div class="col-md-3 col-sm-12 col-xs-12">
-                <br>
-                <div class="panel panel-primary text-center no-boder">
-                  <div class="panel-body">
-                   <img src="../resources/img/prueba.png" class="img-responsive">
-                  </div>
-                  <div class="panel-footer" style="background-color:#09192A; color:white;">
-                   Seleccionar
-                  </div>
-                </div>
-              </div>
-              <div class="col-md-3 col-sm-12 col-xs-12">
-                <br>
-                <div class="panel panel-primary text-center no-boder">
-                  <div class="panel-body">
-                   <img src="../resources/img/prueba.png" class="img-responsive">
-                  </div>
-                  <div class="panel-footer" style="background-color:#09192A; color:white;">
-                   Seleccionar
-                  </div>
+                  </a>
                 </div>
               </div>
             </div>
