@@ -1,1 +1,23 @@
-<!doctype html><html lang="en"><head>    <meta charset="UTF-8">    <meta name="viewport"          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">    <meta http-equiv="X-UA-Compatible" content="ie=edge">    <link rel="stylesheet" href="lib/css/bootstrap.min.css">    <link rel="stylesheet" href="lib/css/styles.css">    <title>Juez en linea</title></head><body></body></html>
+
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Iniciar sesión</title>
+    <link href="lib/assets/css/bootstrap.css" rel="stylesheet" />
+    <link href="lib/assets/css/font-awesome.css" rel="stylesheet" />
+    <link href="lib/assets/css/custom-styles.css" rel="stylesheet" />
+</head>
+<body>
+    <div id="container">       
+        <div class="row">
+             
+        </div>
+    </div>
+    <script src="lib/assets/js/jquery-1.10.2.js"></script>
+    <script src="lib/assets/js/bootstrap.min.js"></script>
+    <script src="lib/assets/js/jquery.metisMenu.js"></script>
+    <script src="lib/assets/js/custom-scripts.js"></script>
+</body>
+</html>
