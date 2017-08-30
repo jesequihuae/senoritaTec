@@ -1,0 +1,1 @@
+<?php/** * Created by PhpStorm. * User: MAND * Date: 30/08/2017 * Time: 04:03 PM */class candidata extends Illuminate\Database\Eloquent\Model{    protected  $table = "candidata";}
