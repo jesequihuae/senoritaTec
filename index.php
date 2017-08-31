@@ -88,11 +88,7 @@
                     $(".mensaje").html('<span class="label label-danger">Fallaste :(...<span>');
                }else{
                    $(location).attr('href','judges');
-<<<<<<< HEAD
-                   // console.log(e);
-=======
                    //$("#respuesta").html(e);
->>>>>>> 4be699295911f63f8fd4c5a4f0086719ae647168
                }
             }
         });

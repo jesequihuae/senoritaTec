@@ -1,1 +1,2 @@
-{  "require":{    "illuminate/database": "*"  },  "autoload":{    "classmap":["models"]  }}
+{  "require":{    "illuminate/database": "*",
+        "setasign/fpdi-fpdf": "1.6.2"  },  "autoload":{    "classmap":["models"]  }}

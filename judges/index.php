@@ -24,7 +24,7 @@
                   <div class="panel panel-primary text-center no-boder">
                     <div class="panel-body">
                       <center>
-                      <img src="../resources/img/<?php echo $candidata['image']; ?>" class="img-responsive">
+                      <img src="../lib/img/<?php echo $candidata['image']; ?>" class="img-responsive" style="width: 177px; height: 246px !important;">
                       </center>
                     </div>
                     <div class="panel-footer" style="background-color:#09192A; color:white;">

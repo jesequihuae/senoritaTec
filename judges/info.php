@@ -14,8 +14,13 @@
     <input type="hidden" value="<?php echo $idCandidata; ?>" id="idCandidata">
     <input type="hidden" value="<?php echo $_SESSION['id']; ?>" id="idJuez">
     <?php  $ganadores = 'si';  $operacion = 'candidataEspecifica'; require '../vendor/autoload.php';  require '../conection.php';  require '../php/base_helper_database.php'; ?>
-    
-    <div id="container"> 
+
+    <div id="container">
+        <div style="position: fixed; margin: 20px; margin-top: 100px !important;">
+            <a href="index.php" data-toggle="tooltip" title="Inicio!">
+                <i class="fa fa-arrow-left fa-5x" aria-hidden="true"></i>
+            </a>
+        </div>
         <?php include('../mod/navbar.php'); ?>   
 
         <div class="col-lg-10 col-lg-offset-1">
@@ -28,7 +33,7 @@
                 </div>
                 <div class="panel-body">
                   <div class="col-lg-4 col-md-12 col-sm-12 col-xs-12">
-                    <center><img src="../resources/img/prueba.png" class="img-responsive"></center>
+                    <center><img src="../lib/img/<?php echo $candidata[0]['image']; ?>" class="img-responsive"></center>
                   </div>
                   <div class="col-lg-8 col-md-12 col-sm-12 col-xs-12" style="margin-top:35px;">
                     <h3>
@@ -42,10 +47,6 @@
                 <br><br>
               </div>
             </div>
-
-            <pre>
-              <div id="mensaje"></div>
-            </pre>
             
             <div class="row">
                 <div class="col-md-6 col-md-offset-3">
@@ -168,7 +169,14 @@
             'elegancia': $("#elegancia").val()
           },
           success: function(e){
-              $("#mensaje").html(e);
+                      $("#mensaje").html(e);
+                      $("#belleza").val(""),
+                      $("#presentacion").val("");
+                      $("#preguntaFinal").val("");
+                      $("#personalidad").val("");
+                      $("#elegancia").val("");
+              $(location).attr('href','index.php');
+              alert("Agregado con exito");
           }
         });
       }   
