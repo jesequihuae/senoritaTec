@@ -1,0 +1,1 @@
+<?php    class c_parametros extends Illuminate\Database\Eloquent\Model{        protected $table = 'c_parametros';    }?>

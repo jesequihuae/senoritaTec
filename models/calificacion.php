@@ -1,0 +1,1 @@
+<?php    class calificacion extends Illuminate\Database\Eloquent\Model{        protected $table = 'calificacion';    }?>
