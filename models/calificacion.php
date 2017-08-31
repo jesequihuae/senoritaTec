@@ -1,1 +1,1 @@
-<?php    class calificacion extends Illuminate\Database\Eloquent\Model{        protected $table = 'calificacion';    }?>
+<?php    class calificacion extends Illuminate\Database\Eloquent\Model{        protected $table = 'calificacion';        public $timestamps = false;    }?>

@@ -10,7 +10,9 @@
     <link href="../lib/assets/css/custom-styles.css" rel="stylesheet" />
 </head>
 <body style="background-color:#f9f9f9;">
-    <?php $idCandidata = $_GET['id']; ?>
+    <?php $idCandidata = $_GET['id']; @session_start(); ?>
+    <input type="hidden" value="<?php echo $idCandidata; ?>" id="idCandidata">
+    <input type="hidden" value="<?php echo $_SESSION['id']; ?>" id="idJuez">
     <?php  $ganadores = 'si';  $operacion = 'candidataEspecifica'; require '../vendor/autoload.php';  require '../conection.php';  require '../php/base_helper_database.php'; ?>
     
     <div id="container"> 
@@ -40,6 +42,10 @@
                 <br><br>
               </div>
             </div>
+
+            <pre>
+              <div id="mensaje"></div>
+            </pre>
             
             <div class="row">
                 <div class="col-md-6 col-md-offset-3">
@@ -143,13 +149,28 @@
     $('#enviar').on('click', function(){
       if( $("#belleza").val() == '' || $("#presentacion").val() == '' || $("#preguntaFinal").val() == '' || $("#personalidad").val() == '' || $("#elegancia").val() == ''){
           document.getElementById("mensajeError").style.display = 'block';
-          setTimeout(function() { ocultar() },8000);
+          setTimeout(function() { ocultar() },4000);
       }   
       else{
-        // $.ajax({
-
-        // });
-        console.log($("#presentacion").val());
+        console.log("entro");
+        $.ajax({
+          url: '../php/base_helper_database',
+          type: 'POST',
+          data: {
+            'ganadores': 'si',
+            'operacion': 'calificar',
+            'idCandidata': $("#idCandidata").val(),
+            'idJuez': $("#idJuez").val(),
+            'belleza': $("#belleza").val(),
+            'presentacion': $("#presentacion").val(),
+            'preguntaFinal': $("#preguntaFinal").val(),
+            'personalidad': $("#personalidad").val(),
+            'elegancia': $("#elegancia").val()
+          },
+          success: function(e){
+              $("#mensaje").html(e);
+          }
+        });
       }   
     }); 
 

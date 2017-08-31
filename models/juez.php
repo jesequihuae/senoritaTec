@@ -1,1 +1,1 @@
-<?php/** * Created by PhpStorm. * User: MAND * Date: 30/08/2017 * Time: 04:40 PM */class juez extends Illuminate\Database\Eloquent\Model{    protected $table = 'c_juez';}
+<?php/** * Created by PhpStorm. * User: MAND * Date: 30/08/2017 * Time: 04:40 PM */class juez extends Illuminate\Database\Eloquent\Model{    protected $table = 'c_juez';    protected $primaryKey = 'idc_juez';}
