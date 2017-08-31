@@ -51,13 +51,13 @@
                         <div class="mensaje"></div>
                     </div>
 
-                    <div class="row">
-                        <div class="col-md-4"></div>
-                        <div class="col-md-4">
+                    <div class="row" align="center">
+                        <div class="col-md-4 col-md-offset-2">
                             <button class="btn btn-primary" id="login">Iniciar session</button>
-                            <div id="mensaje"></div>
                         </div>
-                        <div class="col-md-4"></div>
+                        <div class="col-md-4">
+                            <a href="ganadores" class="btn btn-primary">Lista Candidatas</a>
+                        </div>
                     </div>
                 </div>
 
