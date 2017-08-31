@@ -9,29 +9,34 @@
     <link href="../lib/assets/css/custom-styles.css" rel="stylesheet" />
 </head>
 <body>
+    <?php  $ganadores = 'si';  $operacion = 'candidatasAll'; require '../vendor/autoload.php';  require '../conection.php';  require '../php/base_helper_database.php'; ?>
+
     <div id="container">
         <?php include('../mod/navbar.php'); ?>
         <div class="col-lg-12">
             <center><h1><small>Selecciona una participante</small></h1></center>
+            <div id="mensaje"></div>
             <div class="row">
-              <div class="col-md-3 col-sm-12 col-xs-12">
+              <?php foreach ($lista as $candidata){ ?>
+              <div class="col-lg-3 col-md-3 col-sm-12 col-xs-12">
                 <br>
-                <a href="">
-                <div class="panel panel-primary text-center no-boder">
-                  <div class="panel-body">
-                    <center>
-                    <img src="../resources/img/prueba.png" class="img-responsive">
-                    </center>
-                  </div>
-                  <div class="panel-footer" style="background-color:#09192A; color:white;">
-                   <div width="100%" >
-                     <div align="left" style="float:left;">Kimberly Colli Ordaz</div>
-                     <div align="right">Color: Amarillo</div>
-                   </div>                   
-                  </div>
+                <a href="info.php?id=<?php echo $candidata['idcandidata']; ?>">
+                  <div class="panel panel-primary text-center no-boder">
+                    <div class="panel-body">
+                      <center>
+                      <img src="../resources/img/<?php echo $candidata['image']; ?>" class="img-responsive">
+                      </center>
+                    </div>
+                    <div class="panel-footer" style="background-color:#09192A; color:white;">
+                     <div width="100%" >
+                       <div align="left" style="float:left;"><?php echo $candidata['nombre']; ?></div>
+                       <div align="right">Color: <?php echo $candidata['color']; ?></div>
+                     </div>                   
+                    </div>
                   </a>
                 </div>
               </div>
+              <?php } ?>
             </div>
         </div>
     </div>
@@ -39,5 +44,24 @@
     <script src="../lib/assets/js/bootstrap.min.js"></script>
     <script src="../lib/assets/js/jquery.metisMenu.js"></script>
     <script src="../lib/assets/js/custom-scripts.js"></script>
+    <script src="../lib/js/jquery.js"></script>
 </body>
+    <script type="text/javascript">
+      // $(document).ready(function(){
+      //   $.ajax({
+      //     url:'../php/base_helper_database.php',
+      //     type:'POST',
+      //     data:{
+      //           'operacion':'candidatasAll'
+      //       },
+      //     success: function(e){
+      //       if(e == 'error'){
+      //         console.log("error");
+      //       } else {
+      //         window.
+      //       }
+      //     }
+      //   });
+      // });
+    </script>
 </html>
