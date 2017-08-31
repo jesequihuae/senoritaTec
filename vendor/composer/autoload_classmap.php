@@ -6,6 +6,8 @@ $vendorDir = dirname(dirname(__FILE__));
 $baseDir = dirname($vendorDir);
 
 return array(
+    'c_parametros' => $baseDir . '/models/c_parametros.php',
+    'calificacion' => $baseDir . '/models/calificacion.php',
     'candidata' => $baseDir . '/models/candidata.php',
     'juez' => $baseDir . '/models/juez.php',
 );
