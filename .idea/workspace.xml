@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1eef390c-4f5e-4161-b666-a900a7728ccb" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ganadores.php" afterPath="$PROJECT_DIR$/ganadores.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/php/base_helper_database.php" afterPath="$PROJECT_DIR$/php/base_helper_database.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/css/styles.css" afterPath="$PROJECT_DIR$/lib/css/styles.css" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -21,13 +20,25 @@
       <file leaf-file-name="ganadores.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/ganadores.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="22" column="21" lean-forward="false" selection-start-line="22" selection-start-column="21" selection-end-line="22" selection-end-column="21" />
+            <state relative-caret-position="397">
+              <caret line="39" column="114" lean-forward="false" selection-start-line="39" selection-start-column="114" selection-end-line="39" selection-end-column="114" />
               <folding>
-                <marker date="1504148182243" expanded="true" signature="2489:2553" ph="..." />
-                <marker date="1504148182243" expanded="true" signature="2518:2538" ph="..." />
-                <marker date="1504148182243" expanded="true" signature="2613:2628" ph="..." />
+                <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#div#3;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <marker date="1504153474485" expanded="true" signature="2735:2851" ph="..." />
+                <marker date="1504153474485" expanded="true" signature="2816:2836" ph="..." />
+                <marker date="1504153474485" expanded="true" signature="2911:2926" ph="..." />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="styles.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lib/css/styles.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="207">
+              <caret line="14" column="23" lean-forward="false" selection-start-line="14" selection-start-column="23" selection-end-line="14" selection-end-column="23" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -73,6 +84,7 @@
       <find>child</find>
       <find>padd</find>
       <find>pad</find>
+      <find>l</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -91,10 +103,10 @@
         <option value="$PROJECT_DIR$/mod/navbar.php" />
         <option value="$PROJECT_DIR$/models/calificacion.php" />
         <option value="$PROJECT_DIR$/models/c_parametros.php" />
-        <option value="$PROJECT_DIR$/lib/css/styles.css" />
-        <option value="$PROJECT_DIR$/ganadores.php" />
         <option value="$PROJECT_DIR$/php/base_helper_database.php" />
         <option value="$PROJECT_DIR$/models/candidata.php" />
+        <option value="$PROJECT_DIR$/lib/css/styles.css" />
+        <option value="$PROJECT_DIR$/ganadores.php" />
       </list>
     </option>
   </component>
@@ -155,7 +167,13 @@
             <path>
               <item name="senoritaTec" type="b2602c69:ProjectViewProjectNode" />
               <item name="senoritaTec" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="models" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="lib" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="senoritaTec" type="b2602c69:ProjectViewProjectNode" />
+              <item name="senoritaTec" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="lib" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="css" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
           </expand>
           <select />
@@ -197,12 +215,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1504120933805</updated>
-      <workItem from="1504120936569" duration="24220000" />
+      <workItem from="1504120936569" duration="26843000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="24220000" />
+    <option name="totallyTimeSpent" value="26843000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1358" y="-8" width="1376" height="744" extended-state="6" />
@@ -318,14 +336,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lib/css/styles.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="275">
-          <caret line="22" column="22" lean-forward="false" selection-start-line="22" selection-start-column="22" selection-end-line="22" selection-end-column="22" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/index.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
@@ -360,14 +370,24 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/lib/css/styles.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="207">
+          <caret line="14" column="23" lean-forward="false" selection-start-line="14" selection-start-column="23" selection-end-line="14" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/ganadores.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="22" column="21" lean-forward="false" selection-start-line="22" selection-start-column="21" selection-end-line="22" selection-end-column="21" />
+        <state relative-caret-position="397">
+          <caret line="39" column="114" lean-forward="false" selection-start-line="39" selection-start-column="114" selection-end-line="39" selection-end-column="114" />
           <folding>
-            <marker date="1504148182243" expanded="true" signature="2489:2553" ph="..." />
-            <marker date="1504148182243" expanded="true" signature="2518:2538" ph="..." />
-            <marker date="1504148182243" expanded="true" signature="2613:2628" ph="..." />
+            <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#3;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <marker date="1504153474485" expanded="true" signature="2735:2851" ph="..." />
+            <marker date="1504153474485" expanded="true" signature="2816:2836" ph="..." />
+            <marker date="1504153474485" expanded="true" signature="2911:2926" ph="..." />
           </folding>
         </state>
       </provider>
