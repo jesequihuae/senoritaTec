@@ -27,10 +27,10 @@
                       <img src="../lib/img/<?php echo $candidata['image']; ?>" class="img-responsive" style="width: 177px; height: 246px !important;">
                       </center>
                     </div>
-                    <div class="panel-footer" style="background-color:#09192A; color:white;">
+                    <div class="panel-footer" style="background-color:<?php echo $candidata['color'];?>; color:black;">
                      <div width="100%" >
                        <div align="left" style="float:left;"><?php echo $candidata['nombre']; ?></div>
-                       <div align="right">Color: <?php echo $candidata['color']; ?></div>
+                       <div align="right">Color: <?php echo $candidata['color_show']; ?></div>
                      </div>                   
                     </div>
                   </a>
