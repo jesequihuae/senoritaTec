@@ -13,7 +13,7 @@
     <?php $idCandidata = $_GET['id']; @session_start(); ?>
     <input type="hidden" value="<?php echo $idCandidata; ?>" id="idCandidata">
     <input type="hidden" value="<?php echo $_SESSION['id']; ?>" id="idJuez">
-    <?php  $ganadores = 'si';  $operacion = 'candidataEspecifica'; require '../vendor/autoload.php';  require '../conection.php';  require '../php/base_helper_database.php'; ?>
+    <?php  $ganadores = 'si';  $_REQUEST['operacion'] = 'candidataEspecifica'; require '../vendor/autoload.php';  require '../conection.php';  require '../php/base_helper_database.php'; ?>
 
     <div id="container">
         <div style="position: fixed; margin: 20px; margin-top: 100px !important;">
@@ -140,6 +140,9 @@
             </div>
         </div>
     </div>
+    <div id="mensaje">
+
+    </div>
 
 
     <script src="../lib/assets/js/jquery-1.10.2.js"></script>
@@ -158,7 +161,6 @@
           url: '../php/base_helper_database',
           type: 'POST',
           data: {
-            'ganadores': 'si',
             'operacion': 'calificar',
             'idCandidata': $("#idCandidata").val(),
             'idJuez': $("#idJuez").val(),
@@ -177,6 +179,7 @@
                       $("#elegancia").val("");
               $(location).attr('href','index.php');
               alert("Agregado con exito");
+              //$("#mensaje").html("maickoldskjdsjjds"+e);
           }
         });
       }   

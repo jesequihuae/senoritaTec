@@ -9,7 +9,7 @@
     <link href="../lib/assets/css/custom-styles.css" rel="stylesheet" />
 </head>
 <body>
-    <?php  $ganadores = 'si';  $operacion = 'candidatasAll'; require '../vendor/autoload.php';  require '../conection.php';  require '../php/base_helper_database.php'; ?>
+    <?php  $ganadores = 'si';  $_REQUEST['operacion'] = 'candidatasAll'; require '../vendor/autoload.php';  require '../conection.php';  require '../php/base_helper_database.php'; ?>
 
     <div id="container">
         <?php include('../mod/navbar.php'); ?>
