@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1eef390c-4f5e-4161-b666-a900a7728ccb" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pdfPersonal.php" afterPath="$PROJECT_DIR$/pdfPersonal.php" />
-    </list>
+    <list default="true" id="1eef390c-4f5e-4161-b666-a900a7728ccb" name="Default" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -22,20 +20,42 @@
             <state relative-caret-position="295">
               <caret line="28" column="20" lean-forward="false" selection-start-line="28" selection-start-column="20" selection-end-line="28" selection-end-column="20" />
               <folding>
-                <element signature="n#style#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <marker date="1504301582071" expanded="true" signature="3118:3141" ph="..." />
+                <marker date="1504301582071" expanded="true" signature="3118:3160" ph="..." />
+                <marker date="1504301582071" expanded="true" signature="3118:3175" ph="..." />
+                <marker date="1504301582071" expanded="true" signature="3118:3338" ph="..." />
+                <marker date="1504301582071" expanded="true" signature="3118:3420" ph="..." />
+                <marker date="1504301582071" expanded="true" signature="3118:3432" ph="..." />
+                <marker date="1504301582071" expanded="true" signature="3118:3441" ph="..." />
+                <marker date="1504301582071" expanded="true" signature="3206:3322" ph="..." />
+                <marker date="1504301582071" expanded="false" signature="3243:3286" ph="..." />
+                <marker date="1504301582071" expanded="true" signature="3266:3284" ph="..." />
+                <marker date="1504301582071" expanded="true" signature="3287:3307" ph="..." />
+                <marker date="1504301582071" expanded="true" signature="3382:3397" ph="..." />
+                <marker date="1504301582071" expanded="true" signature="3547:3605" ph="..." />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="pdfPersonal.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="pdfPersonal.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pdfPersonal.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="202">
+            <state relative-caret-position="561">
               <caret line="33" column="62" lean-forward="false" selection-start-line="33" selection-start-column="62" selection-end-line="33" selection-end-column="62" />
               <folding>
                 <marker date="1504268877493" expanded="true" signature="3377:4304" ph="..." />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="pdf.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/pdf.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="343">
+              <caret line="57" column="68" lean-forward="true" selection-start-line="57" selection-start-column="41" selection-end-line="57" selection-end-column="68" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -51,7 +71,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>l</find>
       <find>require</find>
       <find>onlineoffline</find>
       <find>directory</find>
@@ -81,6 +100,7 @@
       <find>$calificaciones</find>
       <find>login</find>
       <find>calificar</find>
+      <find>colo</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -124,7 +144,7 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-235" />
     <option name="y" value="-8" />
     <option name="width" value="1346" />
@@ -211,18 +231,17 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1504120933805</updated>
-      <workItem from="1504120936569" duration="64271000" />
+      <workItem from="1504120936569" duration="64287000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="64271000" />
+    <option name="totallyTimeSpent" value="64287000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="7" />
-    <editor active="true" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25036603" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25036603" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -423,14 +442,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pdf.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="343">
-          <caret line="57" column="68" lean-forward="true" selection-start-line="57" selection-start-column="41" selection-end-line="57" selection-end-column="68" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/admin/index.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="714">
@@ -486,18 +497,38 @@
         <state relative-caret-position="295">
           <caret line="28" column="20" lean-forward="false" selection-start-line="28" selection-start-column="20" selection-end-line="28" selection-end-column="20" />
           <folding>
-            <element signature="n#style#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <marker date="1504301582071" expanded="true" signature="3118:3141" ph="..." />
+            <marker date="1504301582071" expanded="true" signature="3118:3160" ph="..." />
+            <marker date="1504301582071" expanded="true" signature="3118:3175" ph="..." />
+            <marker date="1504301582071" expanded="true" signature="3118:3338" ph="..." />
+            <marker date="1504301582071" expanded="true" signature="3118:3420" ph="..." />
+            <marker date="1504301582071" expanded="true" signature="3118:3432" ph="..." />
+            <marker date="1504301582071" expanded="true" signature="3118:3441" ph="..." />
+            <marker date="1504301582071" expanded="true" signature="3206:3322" ph="..." />
+            <marker date="1504301582071" expanded="false" signature="3243:3286" ph="..." />
+            <marker date="1504301582071" expanded="true" signature="3266:3284" ph="..." />
+            <marker date="1504301582071" expanded="true" signature="3287:3307" ph="..." />
+            <marker date="1504301582071" expanded="true" signature="3382:3397" ph="..." />
+            <marker date="1504301582071" expanded="true" signature="3547:3605" ph="..." />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/pdfPersonal.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="202">
+        <state relative-caret-position="561">
           <caret line="33" column="62" lean-forward="false" selection-start-line="33" selection-start-column="62" selection-end-line="33" selection-end-column="62" />
           <folding>
             <marker date="1504268877493" expanded="true" signature="3377:4304" ph="..." />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pdf.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="343">
+          <caret line="57" column="68" lean-forward="true" selection-start-line="57" selection-start-column="41" selection-end-line="57" selection-end-column="68" />
+          <folding />
         </state>
       </provider>
     </entry>
