@@ -28,7 +28,7 @@
             <br>
             <div class="row">
               <div class="panel panel-default">
-                <div class="panel-heading" style="background-color:#09192A; color:white;">
+                <div class="panel-heading" style="background-color:<?php echo $candidata[0]['color']; ?>; color:white;">
                   Participante
                 </div>
                 <div class="panel-body">
@@ -40,7 +40,7 @@
                       <strong>Nombre: </strong> <?php echo $candidata[0]['nombre'].' '.$candidata[0]['apellidos']; ?> <br><br>
                       <strong>Carrera: </strong> <?php echo $candidata[0]['carrera']; ?> <br><br>
                       <strong>Edad: </strong> <?php echo $candidata[0]['edad']; ?> <br><br>
-                      <strong>Color representativo: </strong> <?php echo $candidata[0]['color']; ?>
+                      <strong>Color representativo: </strong> <?php echo $candidata[0]['color_show']; ?>
                     </h3>
                   </div>
                 </div>
@@ -51,7 +51,7 @@
             <div class="row">
                 <div class="col-md-6 col-md-offset-3">
                     <div class="panel panel-default" >
-                        <div class="panel-heading" style="background-color:#09192A; color:white;">
+                        <div class="panel-heading" style="background-color:<?php echo $candidata[0]['color']; ?>; color:white;">
                             Calificaciones
                         </div>
                         <div class="panel-body">
@@ -128,7 +128,7 @@
                             </div>
                             <div class="row" align="right">
                               <div class="col-lg-12">
-                                <button class="btn btn-danger btn-lg">Regresar</button>
+                                <a href="index.php" class="btn btn-danger btn-lg">Regresar</a>
                                 <button class="btn btn-success btn-lg" id="enviar">Enviar</button>
                               </div>
                             </div>
